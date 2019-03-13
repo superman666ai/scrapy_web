@@ -12,3 +12,8 @@ class GetdataItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+
+class ShuangSeQiuItem(scrapy.Item):
+    data = scrapy.Field()
+    num_ball = scrapy.Field()
